@@ -15,6 +15,7 @@ html, body {
   color: white;
 }
 .tabs{
+  display: inline-block;
   overflow: hidden;
   list-style: none;
   padding-left: 0px;
@@ -29,12 +30,16 @@ html, body {
   margin-right: 8px;
 }
 .tabs a{
-  background-color: inherit;
-  float: left;
-  border: none;
+  background-color: white;
+  border: red;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
+  border-radius: 30px;
   transition: 0.3s;
 }
 .tabs a:hover{

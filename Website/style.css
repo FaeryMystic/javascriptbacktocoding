@@ -19,27 +19,22 @@ html, body{
   display: flex;
   flex-direction: row;
   height: 80%;
-}
-
-.left{
   margin: 5px;
-  max-width: 50%;
+  max-width: 80%;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-.left {
   align-items: center;
-  justify-content: center;
 }
 
 
 .profpic{
-  border-radius: 50%;
+  border-radius: 90%;
 }
 
 .tabs{
+  display: inline-block;
   overflow: hidden;
   list-style: none;
   padding-left: 0px;
@@ -54,12 +49,16 @@ html, body{
   margin-right: 8px;
 }
 .tabs a{
-  background-color: inherit;
-  float: left;
-  border: none;
+  background-color: white;
+  border: red;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
+  border-radius: 30px;
   transition: 0.3s;
 }
 .tabs a:hover{

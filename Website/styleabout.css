@@ -43,6 +43,7 @@ h1{
   background-color: #ccc;
 }
 .subtitle{
+  justify-content: center;
   font-size: 24px;
   font-weight: bold;
   text-align: center;
@@ -50,5 +51,12 @@ h1{
 }
 ol{
   margin: 30px;
-
+}
+#left{
+  float: left;
+  width: 50%;
+}
+#right{
+  float: right;
+  width: 40%;
 }

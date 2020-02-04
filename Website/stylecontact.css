@@ -1,0 +1,74 @@
+html, body{
+  display:flex;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans',sans-serif;
+  margin-top: 30px;
+  background-color: silver;
+  background-image: url("contact.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.allt{
+
+}
+.info{
+  display: inline-block;
+/*  border-radius: 1;
+  border-color: black;
+  border-width: 2px;
+
+  background-color: #E4F1F3;    */
+}
+.interest{
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+}
+.tabs{
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.tabs a{
+  float: left;
+  display: block;
+  background-color: white;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 12px;
+  transition: 0.3s;
+}
+.tabs a:hover{
+  background-color: rgba(0,0,0,0.1);
+}
+.tabs button.active {
+  background-color: #ccc;
+}
+.contact{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 2px;
+}
+/*
+.social{
+  top: 15.5%;
+  right: 20%;
+  position: absolute;
+}
+.FB{
+  top: 22%;
+  right: 33%;
+  position: absolute;
+}
+.LI{
+  top: 22.1%;
+  right: 24%;
+  position: absolute;
+}
+*/

@@ -44,25 +44,27 @@ html, body{
 }
 .tabs{
   overflow: hidden;
-  background-color: white;
+  background-color: black;
   position: fixed;
   top: 0;
   width: 100%;
+  text-align: center;
 }
 .tabs a{
-  float: left;
-  display: block;
-  background-color: white;
-  color: black;
+  display: inline-block;
+  background-color: black;
+  color: white;
+  font-family: franklin-gothic;
   text-align: center;
   text-decoration: none;
+  font-size: 18;
   outline: none;
   cursor: pointer;
   padding: 10px 12px;
   transition: 0.3s;
 }
 .tabs a:hover{
-  background-color: rgba(0,0,0,0.1);
+  background-color: rgba(255,255,255,0.15);
 }
 .tabs button.active {
   background-color: #ccc;

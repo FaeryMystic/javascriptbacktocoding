@@ -7,10 +7,31 @@ html, body{
   padding: 0px;
   font-family: 'Open Sans',sans-serif;
   background: linear-gradient(to bottom ,rgba(231, 240, 245, 1) 0%, rgba(136, 20, 213, 100) 100%);
-  margin-top: 30px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-top: 100px;
 }
 h1{
   text-align: center;
+}
+.profpic{
+  border-radius: 50%;
+  align-items: center;
+  align-self: center;
+}
+.abt{
+
+}
+.allt {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  margin: 5px;
+  max-width: 80%;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  /*align-items: center;*/
 }
 .bioabout {
   font-family: sans-serif;

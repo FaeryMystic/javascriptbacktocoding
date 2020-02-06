@@ -22,9 +22,13 @@ h1{
 .abt{
 
 }
+.lang{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
 .allt {
   display: flex;
-  flex-direction: row;
   height: 100%;
   margin: 5px;
   max-width: 80%;
